@@ -1,0 +1,91 @@
+/* ----------------- GLOBAL ----------------- */
+:root {
+  /* ----------------- variables ----------------- */
+  --primary-text-color: #757575; /* цвет основного текста*/
+  --title-text-color: #212121; /* цвет заголовков*/
+
+  --accent-color: #2196f3; /* основной акцент + цвет логотита*/
+  --secondary-logo-color: #000000; /* второй цвет логотита*/
+  --top-line-color: #ececec; /* цвет верхней линии в хедере */
+
+  --primary-backgraund: #ffffff; /*background страницы */
+  --tean-section-background: #f5f4fa; /*background секции командв */
+  --secondary-background: #2f303a; /*background футера  и героя */
+  --hero-text-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-backgraund);
+}
+.no-decor {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* ----------------- HEADER ----------------- */
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--secondary-logo-color);
+}
+
+.nav-links {
+}
+
+.link-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.link-item:hover,
+.link-contact:hover,
+.link-item:focus,
+.link-contact:focus {
+  color: var(--accent-color);
+}
+/* ----------------- MAIN ----------------- */
+.hero {
+  background: var(--secondary-background);
+}
+
+.hero-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  background: var(--accent-color);
+}
+
+/* ----------------- FOOTER ----------------- */
