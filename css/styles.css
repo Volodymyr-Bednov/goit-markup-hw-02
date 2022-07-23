@@ -71,7 +71,7 @@ body {
 }
 
 .event-link:hover,
-.event-link:active {
+.event-link:focus {
   color: var(--accent-color);
 }
 /* ----------------- MAIN ----------------- */
