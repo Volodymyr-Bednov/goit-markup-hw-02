@@ -89,6 +89,7 @@ body {
   color: var(--hero-text-color);
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -160,8 +161,8 @@ body {
 /* ----------------- PORTFOLIO ----------------- */
 .filter-btn {
   background: var(--background-filter-btn);
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
+  /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -200,6 +201,7 @@ body {
 }
 
 .contact-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -207,6 +209,7 @@ body {
 }
 
 .contact-item {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
